@@ -1,0 +1,116 @@
+.student-list-card {
+  background: white;
+  border-radius: 12px;
+  padding: 25px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.student-list-card h2 {
+  color: #2c3e50;
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+  border-bottom: 3px solid #e74c3c;
+  padding-bottom: 10px;
+}
+
+.students-table {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+}
+
+thead th {
+  padding: 12px;
+  text-align: left;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+tbody tr {
+  border-bottom: 1px solid #e0e0e0;
+  transition: background-color 0.2s;
+}
+
+tbody tr:hover {
+  background-color: #f8f9fa;
+}
+
+tbody td {
+  padding: 12px;
+}
+
+.student-name {
+  font-weight: 600;
+  color: #2c3e50;
+}
+
+.average-badge,
+.attendance-badge {
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 20px;
+  color: white;
+  font-weight: 600;
+  font-size: 0.85rem;
+  min-width: 50px;
+  text-align: center;
+}
+
+.grades-cell {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.grade-item {
+  display: inline-block;
+  padding: 4px 8px;
+  background-color: #ecf0f1;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  color: #2c3e50;
+  font-weight: 500;
+}
+
+.empty-state {
+  text-align: center;
+  padding: 40px 20px;
+  color: #7f8c8d;
+}
+
+.empty-state .hint {
+  font-size: 0.9rem;
+  margin-top: 10px;
+  color: #95a5a6;
+}
+
+.loading {
+  text-align: center;
+  padding: 40px 20px;
+  color: #7f8c8d;
+  font-style: italic;
+}
+
+@media (max-width: 768px) {
+  .grades-cell {
+    flex-direction: column;
+  }
+  
+  table {
+    font-size: 0.85rem;
+  }
+  
+  thead th,
+  tbody td {
+    padding: 8px;
+  }
+}
+
