@@ -321,9 +321,11 @@ Retorna lista de estudantes com frequência abaixo de 75%.
 <img width="666" height="467" alt="Captura de Tela 2025-11-19 às 17 35 47" src="https://github.com/user-attachments/assets/af1dd7bc-4734-4d4e-a629-a1e7b248f572" />
 
 
-### 📑 Relatórios
+### 📝 Editar Aluno
 <img width="666" height="489" alt="Captura de Tela 2025-11-19 às 17 35 56" src="https://github.com/user-attachments/assets/b34af3c1-567d-4e56-8fb2-43563ad45638" />
 
+### 📑 Relatórios
+<img width="666" height="318" alt="Captura de Tela 2025-11-19 às 17 36 14" src="https://github.com/user-attachments/assets/a8351050-d54a-4d30-beca-79393497deb2" />
 
 
 ## 🔍 Pontos Importantes sobre o Projeto
