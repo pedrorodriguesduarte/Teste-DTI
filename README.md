@@ -312,16 +312,18 @@ Retorna lista de estudantes com frequência abaixo de 75%.
 
 ### 📝 Tela de Cadastro de Aluno
 <img width="666" height="545" alt="Captura de Tela 2025-11-19 às 17 35 11" src="https://github.com/user-attachments/assets/fd71da7b-93ce-4f59-89ac-b2c56d67b03d" />
-" width="300">
+
 
 ### 📊 Estatísticas da Turma
-<img src="imagens/estatisticas.png" width="300">
+<img width="666" height="307" alt="Captura de Tela 2025-11-19 às 17 35 26" src="https://github.com/user-attachments/assets/f7fe59c6-4ae0-4fb7-ad9f-26a0bbf739b2" />
 
 ### 📋 Lista de Alunos
-<img src="imagens/lista.png" width="300">
+<img width="666" height="467" alt="Captura de Tela 2025-11-19 às 17 35 47" src="https://github.com/user-attachments/assets/af1dd7bc-4734-4d4e-a629-a1e7b248f572" />
+
 
 ### 📑 Relatórios
-<img src="imagens/relatorios.png" width="300">
+<img width="666" height="489" alt="Captura de Tela 2025-11-19 às 17 35 56" src="https://github.com/user-attachments/assets/b34af3c1-567d-4e56-8fb2-43563ad45638" />
+
 
 
 ## 🔍 Pontos Importantes sobre o Projeto
