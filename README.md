@@ -304,6 +304,26 @@ Retorna lista de estudantes com frequência abaixo de 75%.
 - **Feedback Visual**: Mensagens de sucesso/erro, badges coloridos, estados de loading
 - **Design Minimalista**: Interface clean e profissional com cores sutis e tipografia moderna
 
+
+
+
+
+## 📸 Capturas de Tela do Sistema
+
+### 📝 Tela de Cadastro de Aluno
+<img src="<img width="666" height="545" alt="Captura de Tela 2025-11-19 às 17 35 11" src="https://github.com/user-attachments/assets/fd71da7b-93ce-4f59-89ac-b2c56d67b03d" />
+" width="300">
+
+### 📊 Estatísticas da Turma
+<img src="imagens/estatisticas.png" width="300">
+
+### 📋 Lista de Alunos
+<img src="imagens/lista.png" width="300">
+
+### 📑 Relatórios
+<img src="imagens/relatorios.png" width="300">
+
+
 ## 🔍 Pontos Importantes sobre o Projeto
 
 1. **Código Limpo e Organizado**: 
