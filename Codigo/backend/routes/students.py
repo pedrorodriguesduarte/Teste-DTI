@@ -120,6 +120,62 @@ def get_low_attendance():
     return jsonify({'students': low_attendance}), 200
 
 
+@students_bp.route('/api/students/<int:index>', methods=['PUT'])
+def update_student(index):
+    """Atualiza um estudante existente"""
+    try:
+        if index < 0 or index >= len(students_storage):
+            return jsonify({'error': 'Estudante não encontrado'}), 404
+        
+        data = request.get_json()
+        
+        # Validações
+        if not data:
+            return jsonify({'error': 'Dados não fornecidos'}), 400
+        
+        name = data.get('name', '').strip()
+        grades = data.get('grades', [])
+        attendance = data.get('attendance', 0)
+        
+        # Validar nome
+        if not name:
+            return jsonify({'error': 'Nome é obrigatório'}), 400
+        
+        # Validar notas
+        if not isinstance(grades, list) or len(grades) != 5:
+            return jsonify({'error': 'São necessárias exatamente 5 notas'}), 400
+        
+        # Validar cada nota (0 a 10)
+        for i, grade in enumerate(grades):
+            try:
+                grade = float(grade)
+                if grade < 0 or grade > 10:
+                    return jsonify({'error': f'Nota {i+1} deve estar entre 0 e 10'}), 400
+                grades[i] = grade
+            except (ValueError, TypeError):
+                return jsonify({'error': f'Nota {i+1} inválida'}), 400
+        
+        # Validar frequência (0 a 100)
+        try:
+            attendance = float(attendance)
+            if attendance < 0 or attendance > 100:
+                return jsonify({'error': 'Frequência deve estar entre 0 e 100'}), 400
+        except (ValueError, TypeError):
+            return jsonify({'error': 'Frequência inválida'}), 400
+        
+        # Atualizar estudante
+        student = Student(name=name, grades=grades, attendance=attendance)
+        students_storage[index] = student
+        
+        return jsonify({
+            'message': 'Estudante atualizado com sucesso',
+            'student': student.to_dict()
+        }), 200
+        
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+
 @students_bp.route('/api/students/reset', methods=['POST'])
 def reset_students():
     """Limpa todos os estudantes (útil para testes)"""

@@ -4,6 +4,7 @@ import StudentForm from './components/StudentForm';
 import StudentList from './components/StudentList';
 import Statistics from './components/Statistics';
 import Reports from './components/Reports';
+import EditStudentModal from './components/EditStudentModal';
 import { getStudents, getStatistics, getAboveAverage, getLowAttendance } from './services/api';
 
 function App() {
@@ -13,6 +14,8 @@ function App() {
   const [lowAttendance, setLowAttendance] = useState([]);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
+  const [editingStudent, setEditingStudent] = useState(null);
+  const [editingIndex, setEditingIndex] = useState(null);
 
   // Função para carregar todos os dados
   const loadData = async () => {
@@ -46,11 +49,25 @@ function App() {
     loadData();
   };
 
+  const handleEdit = (index, student) => {
+    setEditingIndex(index);
+    setEditingStudent(student);
+  };
+
+  const handleCloseEdit = () => {
+    setEditingStudent(null);
+    setEditingIndex(null);
+  };
+
+  const handleStudentUpdated = () => {
+    loadData();
+  };
+
   return (
     <div className="App">
       <header className="App-header">
         <div className="header-content">
-          <h1>📚 Sistema de Gestão de Turma</h1>
+          <h1>Sistema de Gestão de Turma</h1>
           <p>Gerencie notas e frequência dos alunos</p>
         </div>
       </header>
@@ -58,7 +75,7 @@ function App() {
       <div className="container">
         {error && (
           <div className="error-message">
-            ⚠️ {error}
+            {error}
           </div>
         )}
 
@@ -73,6 +90,7 @@ function App() {
               students={students} 
               statistics={statistics}
               loading={loading}
+              onEdit={handleEdit}
             />
             <Reports 
               aboveAverage={aboveAverage}
@@ -82,6 +100,15 @@ function App() {
           </div>
         </div>
       </div>
+
+      {editingStudent && (
+        <EditStudentModal
+          student={editingStudent}
+          index={editingIndex}
+          onClose={handleCloseEdit}
+          onUpdated={handleStudentUpdated}
+        />
+      )}
     </div>
   );
 }

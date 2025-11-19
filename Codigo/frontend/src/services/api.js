@@ -58,6 +58,23 @@ export const getLowAttendance = async () => {
   return response.json();
 };
 
+export const updateStudent = async (index, studentData) => {
+  const response = await fetch(`${API_BASE_URL}/api/students/${index}`, {
+    method: 'PUT',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify(studentData),
+  });
+
+  if (!response.ok) {
+    const error = await response.json();
+    throw new Error(error.error || 'Erro ao atualizar estudante');
+  }
+
+  return response.json();
+};
+
 export const resetStudents = async () => {
   const response = await fetch(`${API_BASE_URL}/api/students/reset`, {
     method: 'POST',

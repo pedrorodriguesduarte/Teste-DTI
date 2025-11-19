@@ -33,6 +33,7 @@ def index():
         'endpoints': {
             'POST /api/students': 'Adicionar estudante',
             'GET /api/students': 'Listar estudantes',
+            'PUT /api/students/<index>': 'Atualizar estudante',
             'GET /api/students/statistics': 'Estatísticas da turma',
             'GET /api/students/above-average': 'Estudantes acima da média',
             'GET /api/students/low-attendance': 'Estudantes com frequência baixa',

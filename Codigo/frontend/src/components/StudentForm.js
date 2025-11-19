@@ -90,7 +90,7 @@ const StudentForm = ({ onStudentAdded }) => {
 
   return (
     <div className="student-form-card">
-      <h2>➕ Cadastrar Aluno</h2>
+        <h2>Cadastrar Aluno</h2>
       
       <form onSubmit={handleSubmit}>
         <div className="form-group">
@@ -145,8 +145,8 @@ const StudentForm = ({ onStudentAdded }) => {
           />
         </div>
 
-        {error && <div className="error-message">❌ {error}</div>}
-        {success && <div className="success-message">✅ Aluno cadastrado com sucesso!</div>}
+        {error && <div className="error-message">{error}</div>}
+        {success && <div className="success-message">Aluno cadastrado com sucesso!</div>}
 
         <button type="submit" className="submit-btn" disabled={loading}>
           {loading ? 'Cadastrando...' : 'Cadastrar Aluno'}

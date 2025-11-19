@@ -5,13 +5,13 @@ Sistema desenvolvido para o professor Carlos gerenciar notas e frequência dos a
 ## 📋 Descrição do Projeto
 
 O sistema permite que o professor Carlos:
-- Insira as notas (0 a 10) de cada aluno nas 5 disciplinas
-- Insira a frequência (0 a 100%) de cada aluno
-- Visualize cálculos automáticos:
+- **Cadastrar alunos**: Insira as notas (0 a 10) de cada aluno nas 5 disciplinas e a frequência (0 a 100%)
+- **Editar alunos**: Corrija notas ou informações caso tenha inserido dados equivocados
+- **Visualizar cálculos automáticos**:
   - Média de cada aluno (média aritmética das 5 disciplinas)
   - Média da turma por disciplina
   - Média geral da turma
-- Visualize relatórios:
+- **Gerar relatórios**:
   - Alunos com média acima da média geral da turma
   - Alunos com frequência abaixo de 75%
 
@@ -134,8 +134,9 @@ O frontend será aberto automaticamente no navegador em `http://localhost:3000`
 
 2. **API REST**:
    - Escolha de API REST para comunicação entre frontend e backend
-   - Endpoints bem definidos e seguindo convenções RESTful
+   - Endpoints bem definidos e seguindo convenções RESTful (GET, POST, PUT)
    - Uso de JSON para troca de dados
+   - Suporte completo para CRUD (Create, Read, Update) de estudantes
 
 3. **CORS Habilitado**:
    - Flask-CORS configurado para permitir requisições cross-origin do frontend
@@ -272,6 +273,18 @@ Cria um novo estudante.
 ### GET `/api/students`
 Retorna lista de todos os estudantes.
 
+### PUT `/api/students/<index>`
+Atualiza um estudante existente (identificado pelo índice na lista).
+
+**Body:**
+```json
+{
+  "name": "João Silva",
+  "grades": [8.0, 8.5, 7.0, 9.5, 8.5],
+  "attendance": 90
+}
+```
+
 ### GET `/api/students/statistics`
 Retorna estatísticas da turma (médias por disciplina e média geral).
 
@@ -285,9 +298,11 @@ Retorna lista de estudantes com frequência abaixo de 75%.
 
 - **Formulário de Cadastro**: Interface intuitiva para cadastrar alunos com validação em tempo real
 - **Lista de Alunos**: Tabela visual mostrando todos os alunos com suas médias e frequência
+- **Edição de Alunos**: Modal de edição para corrigir notas e informações de alunos já cadastrados
 - **Estatísticas**: Cards exibindo médias por disciplina e média geral da turma
 - **Relatórios**: Seções destacadas mostrando alunos acima da média e com baixa frequência
 - **Feedback Visual**: Mensagens de sucesso/erro, badges coloridos, estados de loading
+- **Design Minimalista**: Interface clean e profissional com cores sutis e tipografia moderna
 
 ## 🔍 Pontos Importantes sobre o Projeto
 
@@ -301,11 +316,14 @@ Retorna lista de estudantes com frequência abaixo de 75%.
    - Mensagens de erro claras e descritivas
    - Prevenção de dados inválidos
 
-3. **Interface Moderna**:
+3. **Interface Moderna e Minimalista**:
    - Design responsivo e adaptável
-   - Cores atraentes e paleta harmoniosa
+   - Visual clean e profissional com cores sutis
+   - Paleta de cores minimalista (cinzas e neutros)
+   - Tipografia moderna e legível
    - Feedback visual imediato para o usuário
-   - Experiência de usuário fluida
+   - Experiência de usuário fluida e intuitiva
+   - Edição de alunos através de modal elegante
 
 4. **Extensibilidade**:
    - Código preparado para facilmente adicionar banco de dados

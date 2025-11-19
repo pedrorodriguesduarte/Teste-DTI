@@ -1,11 +1,11 @@
 import React from 'react';
 import './StudentList.css';
 
-const StudentList = ({ students, statistics, loading }) => {
+const StudentList = ({ students, statistics, loading, onEdit }) => {
   if (loading) {
     return (
       <div className="student-list-card">
-        <h2>📋 Lista de Alunos</h2>
+        <h2>Lista de Alunos</h2>
         <div className="loading">Carregando...</div>
       </div>
     );
@@ -14,7 +14,7 @@ const StudentList = ({ students, statistics, loading }) => {
   if (students.length === 0) {
     return (
       <div className="student-list-card">
-        <h2>📋 Lista de Alunos</h2>
+        <h2>Lista de Alunos</h2>
         <div className="empty-state">
           <p>Nenhum aluno cadastrado ainda.</p>
           <p className="hint">Cadastre o primeiro aluno usando o formulário ao lado.</p>
@@ -36,7 +36,7 @@ const StudentList = ({ students, statistics, loading }) => {
 
   return (
     <div className="student-list-card">
-      <h2>📋 Lista de Alunos ({students.length})</h2>
+        <h2>Lista de Alunos ({students.length})</h2>
       <div className="students-table">
         <table>
           <thead>
@@ -45,6 +45,7 @@ const StudentList = ({ students, statistics, loading }) => {
               <th>Média</th>
               <th>Frequência</th>
               <th>Notas</th>
+              <th>Ações</th>
             </tr>
           </thead>
           <tbody>
@@ -73,6 +74,15 @@ const StudentList = ({ students, statistics, loading }) => {
                       {grade.toFixed(1)}
                     </span>
                   ))}
+                </td>
+                <td>
+                  <button 
+                    className="edit-btn"
+                    onClick={() => onEdit(index, student)}
+                    title="Editar aluno"
+                  >
+                    Editar
+                  </button>
                 </td>
               </tr>
             ))}
