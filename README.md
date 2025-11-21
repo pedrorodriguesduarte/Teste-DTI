@@ -501,13 +501,13 @@ Para melhor visualização, as telas principais estão organizadas lado a lado.
 | Tela | Captura de Tela |
 | :---: | :---: |
 | **Tela Principal (Dashboard)** | **Formulário de Cadastro** |
-| <img src="https://via.placeholder.com/400x250/f8f9fa/495057?text=Dashboard+Principal" alt="Tela Principal" width="400"> | <img src="https://via.placeholder.com/400x250/f8f9fa/495057?text=Formulário+Cadastro" alt="Formulário de Cadastro" width="400"> |
+| <img src="https://github.com/user-attachments/assets/7ced007b-14b8-4cd1-8e3b-0703cd023cfe" alt="Dashboard" width="400"> | <img src="https://github.com/user-attachments/assets/469ee231-cf11-4ba4-a2aa-d350ea0a8c1e" alt="Cadastro" width="400"> |
 | **Lista de Alunos** | **Modal de Edição** |
-| <img src="https://via.placeholder.com/400x250/f8f9fa/495057?text=Lista+de+Alunos" alt="Lista de Alunos" width="400"> | <img src="https://via.placeholder.com/400x250/f8f9fa/495057?text=Modal+Edição" alt="Modal de Edição" width="400"> |
+| <img src="https://github.com/user-attachments/assets/7ced007b-14b8-4cd1-8e3b-0703cd023cfe" alt="Lista de Alunos" width="400"> | <img src="https://github.com/user-attachments/assets/e5f9abb9-41ff-4368-8c92-69c032efe12a" alt="Editar Aluno" width="400"> |
 | **Estatísticas da Turma** | **Relatórios** |
-| <img src="https://via.placeholder.com/400x250/f8f9fa/495057?text=Estatísticas" alt="Estatísticas" width="400"> | <img src="https://via.placeholder.com/400x250/f8f9fa/495057?text=Relatórios" alt="Relatórios" width="400"> |
+| <img src="https://github.com/user-attachments/assets/0d27983d-420a-4534-a19f-01e2c6952ee0" alt="Estatísticas" width="400"> | <img src="https://github.com/user-attachments/assets/73653f79-d0cf-48b1-85c4-f625820954ce" alt="Relatórios" width="400"> |
 
-> **Nota:** As imagens acima são placeholders. Substitua por capturas de tela reais da aplicação.
+
 
 ### 💻 Exemplo de Saída no Terminal
 
@@ -577,22 +577,6 @@ python -m pytest tests/
 
 
 
-## 📸 Capturas de Tela do Sistema
-
-### 📝 Tela de Cadastro de Aluno
-<img width="666" height="545" alt="Cadastro" src="https://github.com/user-attachments/assets/469ee231-cf11-4ba4-a2aa-d350ea0a8c1e" />
-
-### 📊 Estatísticas da Turma
-<img width="666" height="307" alt="Estatísticas" src="https://github.com/user-attachments/assets/0d27983d-420a-4534-a19f-01e2c6952ee0" />
-
-### 📋 Lista de Alunos
-<img width="666" height="467" alt="Lista" src="https://github.com/user-attachments/assets/7ced007b-14b8-4cd1-8e3b-0703cd023cfe" />
-
-### 📝 Editar Aluno
-<img width="666" height="489" alt="Editar" src="https://github.com/user-attachments/assets/e5f9abb9-41ff-4368-8c92-69c032efe12a" />
-
-### 📑 Relatórios
-<img width="666" height="318" alt="Relatórios" src="https://github.com/user-attachments/assets/73653f79-d0cf-48b1-85c4-f625820954ce" />
 
 
 
