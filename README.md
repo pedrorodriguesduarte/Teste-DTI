@@ -571,7 +571,7 @@ cd Codigo/backend
 python -m pytest tests/
 ```
 
-<<<<<<< HEAD
+
 *Ferramenta recomendada: pytest*
 =======
 
