@@ -501,11 +501,12 @@ Para melhor visualização, as telas principais estão organizadas lado a lado.
 | Tela | Captura de Tela |
 | :---: | :---: |
 | **Tela Principal (Dashboard)** | **Formulário de Cadastro** |
-| <img src="https://github.com/user-attachments/assets/7ced007b-14b8-4cd1-8e3b-0703cd023cfe" alt="Dashboard" width="400"> | <img src="https://github.com/user-attachments/assets/469ee231-cf11-4ba4-a2aa-d350ea0a8c1e" alt="Cadastro" width="400"> |
+| <img src="https://github.com/user-attachments/assets/d3cc361f-564c-4af7-a869-d1645f35c39b" alt="Dashboard" width="400"> | <img src="https://github.com/user-attachments/assets/469ee231-cf11-4ba4-a2aa-d350ea0a8c1e" alt="Cadastro" width="400"> |
 | **Lista de Alunos** | **Modal de Edição** |
 | <img src="https://github.com/user-attachments/assets/7ced007b-14b8-4cd1-8e3b-0703cd023cfe" alt="Lista de Alunos" width="400"> | <img src="https://github.com/user-attachments/assets/e5f9abb9-41ff-4368-8c92-69c032efe12a" alt="Editar Aluno" width="400"> |
 | **Estatísticas da Turma** | **Relatórios** |
 | <img src="https://github.com/user-attachments/assets/0d27983d-420a-4534-a19f-01e2c6952ee0" alt="Estatísticas" width="400"> | <img src="https://github.com/user-attachments/assets/73653f79-d0cf-48b1-85c4-f625820954ce" alt="Relatórios" width="400"> |
+
 
 
 
