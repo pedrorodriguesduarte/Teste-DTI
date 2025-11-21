@@ -581,8 +581,6 @@ python -m pytest tests/
 
 
 
-## 🔍 Pontos Importantes sobre o Projeto
->>>>>>> 9610e814a4e987b8ae793409bd2ddea835392938
 
 ### Testes do Frontend
 
@@ -614,9 +612,9 @@ Liste aqui links para documentação técnica e referências que foram cruciais 
 
 ## 👥 Autores
 
-- **Pedro Duarte** - :octocat: [@seu-usuario-github](https://github.com/seu-usuario-github) | 🔗 [LinkedIn](<Link do LinkedIn>)
+- **Pedro Duarte** - :octocat: [@pedrorodriguesduarte](https://github.com/pedrorodriguesduarte)) | 🔗 [LinkedIn](https://www.linkedin.com/in/pedro-duart3/)
 
-> **Nota:** Substitua pelas informações reais do autor do projeto.
+
 
 ---
 
@@ -642,6 +640,12 @@ Gostaria de agradecer às seguintes pessoas e organizações que foram fundament
 * **Prof. Carlos** - Por representar o usuário final que se beneficiará deste sistema de gestão acadêmica.
 
 * **Comunidade de Desenvolvimento** - Pelos recursos, tutoriais e suporte disponíveis online que facilitaram o desenvolvimento.
+
+* * [**Engenharia de Software PUC Minas**](https://www.instagram.com/engsoftwarepucminas/) - Pelo apoio institucional, estrutura acadêmica e fomento à inovação e boas práticas de engenharia.
+* [**Prof. Dr. João Paulo Aramuni**](https://github.com/joaopauloaramuni) - Pelos valiosos ensinamentos sobre **Arquitetura de Software** e **Padrões de Projeto**.
+* [**Fernanda Kipper**](https://www.instagram.com/kipper.dev/) - Pelos valiosos ensinamentos em **Desenvolvimento Web**, **DevOps** e melhores práticas em **Front-end**.
+* [**Rodrigo Branas**](https://branas.io/) - Pela didática excepcional em **Clean Architecture** e **Clean Code**.
+* [**Código Fonte TV**](https://codigofonte.tv/) - Pelo vasto conteúdo e cobertura de notícias, tutoriais e apoio à comunidade de **Desenvolvimento Web**.
 
 ---
 
