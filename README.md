@@ -655,8 +655,6 @@ Gostaria de agradecer às seguintes pessoas e organizações que foram fundament
 
 ## 📄 Licença
 
-Este projeto é distribuído sob a **[Licença MIT](LICENSE)**.
-
-Você é livre para usar, modificar e distribuir este software, desde que mantenha o aviso de copyright original.
+Este projeto é distribuído sob a **[Licença MIT](https://github.com/joaopauloaramuni/laboratorio-de-desenvolvimento-de-software/blob/main/LICENSE)**.
 
 ---
