@@ -11,7 +11,7 @@ Sistema web desenvolvido para o professor Carlos gerenciar notas e frequência d
     </td>
     <td>
       <div>
-        <img src="https://via.placeholder.com/120x120/667eea/ffffff?text=📚" alt="Logo do Sistema de Gestão de Turma" width="120px" height="120px"/>
+        <img width="1200" height="120px" alt="image" src="https://github.com/user-attachments/assets/be9eb170-49f8-425b-b91b-93b7045759a3" />
       </div>
     </td>
   </tr> 
@@ -580,11 +580,13 @@ python -m pytest tests/
 ## 📸 Capturas de Tela do Sistema
 
 ### 📝 Tela de Cadastro de Aluno
-<img width="666" height="545" alt="Captura de Tela 2025-11-19 às 17 35 11" src="https://github.com/user-attachments/assets/fd71da7b-93ce-4f59-89ac-b2c56d67b03d" />
+<img width="666" height="545" alt="Captura de Tela 2025-11-19 às 17 35 11" src="https://github.com/user-attachments/assets/469ee231-cf11-4ba4-a2aa-d350ea0a8c1e" />
+
 
 
 ### 📊 Estatísticas da Turma
-<img width="666" height="307" alt="Captura de Tela 2025-11-19 às 17 35 26" src="https://github.com/user-attachments/assets/f7fe59c6-4ae0-4fb7-ad9f-26a0bbf739b2" />
+<img width="666" height="307" alt="Captura de Tela 2025-11-19 às 17 35 26" src="<img width="1332" height="614" alt="image" src="https://github.com/user-attachments/assets/ff773203-2d62-4553-9853-c1588f18fd2a" />
+" />
 
 ### 📋 Lista de Alunos
 <img width="666" height="467" alt="Captura de Tela 2025-11-19 às 17 35 47" src="https://github.com/user-attachments/assets/af1dd7bc-4734-4d4e-a629-a1e7b248f572" />
