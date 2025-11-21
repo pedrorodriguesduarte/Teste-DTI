@@ -580,21 +580,19 @@ python -m pytest tests/
 ## 📸 Capturas de Tela do Sistema
 
 ### 📝 Tela de Cadastro de Aluno
-<img width="666" height="545" alt="Captura de Tela 2025-11-19 às 17 35 11" src="https://github.com/user-attachments/assets/fd71da7b-93ce-4f59-89ac-b2c56d67b03d" />
-
+<img width="666" height="545" alt="Cadastro" src="https://github.com/user-attachments/assets/469ee231-cf11-4ba4-a2aa-d350ea0a8c1e" />
 
 ### 📊 Estatísticas da Turma
-<img width="666" height="307" alt="Captura de Tela 2025-11-19 às 17 35 26" src="https://github.com/user-attachments/assets/f7fe59c6-4ae0-4fb7-ad9f-26a0bbf739b2" />
+<img width="666" height="307" alt="Estatísticas" src="https://github.com/user-attachments/assets/0d27983d-420a-4534-a19f-01e2c6952ee0" />
 
 ### 📋 Lista de Alunos
-<img width="666" height="467" alt="Captura de Tela 2025-11-19 às 17 35 47" src="https://github.com/user-attachments/assets/af1dd7bc-4734-4d4e-a629-a1e7b248f572" />
-
+<img width="666" height="467" alt="Lista" src="https://github.com/user-attachments/assets/7ced007b-14b8-4cd1-8e3b-0703cd023cfe" />
 
 ### 📝 Editar Aluno
-<img width="666" height="489" alt="Captura de Tela 2025-11-19 às 17 35 56" src="https://github.com/user-attachments/assets/b34af3c1-567d-4e56-8fb2-43563ad45638" />
+<img width="666" height="489" alt="Editar" src="https://github.com/user-attachments/assets/e5f9abb9-41ff-4368-8c92-69c032efe12a" />
 
 ### 📑 Relatórios
-<img width="666" height="318" alt="Captura de Tela 2025-11-19 às 17 36 14" src="https://github.com/user-attachments/assets/a8351050-d54a-4d30-beca-79393497deb2" />
+<img width="666" height="318" alt="Relatórios" src="https://github.com/user-attachments/assets/73653f79-d0cf-48b1-85c4-f625820954ce" />
 
 
 
